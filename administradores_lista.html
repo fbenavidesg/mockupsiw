@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Panel Administrador</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Usuarios Administradores</h1>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Usuarios administradores</li>
+        </ol>
+    </header>
+    <section>
+        
+        
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <a href="usuario_crear.html"><span class="glyphicon glyphicon-plus"></span> Crear nuevo administrador</a>
+        </div>
+      </div>
+
+        <table class="table table-striped"> 
+          <thead>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Correo</th>
+            <th>Acciones</th>
+          </thead>
+        <tbody>
+          <tr>
+            <td>Juan</td>
+            <td>Perez Perez</td>
+            <td>juan@icetex.gov.co</td>
+            <td>
+              <div><a href="usuario_ver.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Ver</a></div>
+              <div><a href="usuario_editar.html"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar</a></div>
+              <div><a  class="btn-delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</a></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Andres</td>
+            <td>Gomez</td>
+            <td>andres@icetex.gov.co</td>
+            <td>
+              <div><a href="usuario_ver.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Ver</a></div>
+              <div><a href="usuario_editar.html"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Editar</a></div>
+              <div><a  class="btn-delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</a></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+       <div class="templatecustom" value="paginador"></div>
+
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/external/bootstrap/js/bootbox.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

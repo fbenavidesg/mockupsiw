@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Convocatoria</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Crear convocatoria usando una plantilla</h1>
+       <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Panel Oferente</a></li>
+          <li class="active">Crear convocatoria de plantilla</li>
+        </ol>
+    </header>
+    <section>
+        <div class="row row-border-radius">
+            <div class="col-md-12">
+                
+                <form action="convocatoria.html?msg=Convocatoria creada correctamente" method="post">
+                  <div class="form-group">
+                    <label for="">Título</label>
+                    <input type="text" class="form-control" placeholder="Título">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Fecha apertura</label>
+                    <input type="date"
+Olvidé class="form-control" placeholder="dd/mm/aa">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Fecha cierre</label>
+                    <input type="date"
+Olvidé class="form-control" placeholder="dd/mm/aa">
+                  </div>
+                  <div class="form-group">
+                      <label for="">Plantilla base</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Plantilla convocatoria estandar</option>
+                            <option>Plantilla convocatoria becas Alemania</option>
+                            <option>Plantilla convocatoria 3</option>
+                            <option>Plantilla convocatoria 4</option>
+                            <option>Plantilla convocatoria 5</option>
+                            <option>Plantilla convocatoria 6</option>
+                        </select>
+                  </div>
+                  <button type="submit" class="btn btn-success">Guardar</button>
+                  <a onclick="history.back()" id="cancel" name="cancel" class="btn btn-default">Cancelar</a>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

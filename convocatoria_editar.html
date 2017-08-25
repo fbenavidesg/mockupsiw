@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Convocatoria</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Crear convocatoria</h1>
+       <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="panel_oferente.html">Convocatorias</a></li>
+          <li class="active">Editar convocatoria</li>
+        </ol>
+    </header>
+    <section>
+        <div class="row row-border-radius">
+            <div class="col-md-12">
+                
+                <form action="convocatoria.html" method="post">
+                  <div class="form-group">
+                    <label for="">Título</label>
+                    <input type="text" class="form-control" value="Obtén tu Beca de forma fácil para estudiar en Argentina">
+                  </div>
+                  <div class="form-group">
+                    <img style="max-width: 100px;" src="images/ultimas2.jpg" class="img-responsive" alt="Responsive image"><br />
+                    <label for="exampleInputFile">Imagen</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Archivo jpg png</p>
+                  </div>
+                  <div class="form-group">
+                      <label for="">Tipo convocatoria</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option selected="selected">Becas completas</option>
+                            <option>Becas parciales</option>
+                            <option>Subsidios de investigación</option>
+                            <option>Intercambios</option>
+                            <option>Pasantías</option>
+                            <option>Créditos condonables</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="">Área de estudio</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option selected="selected">CIENCIAS DE LA AGRICULTURA</option>
+                            <option>ARQUITECTURA, URBANISMO Y ORDENACIÓN REGIONAL</option>
+                            <option>ARTES Y DISEÑO</option>
+                            <option>CIENCIAS EMPRESARIALES</option>
+                            <option>CIENCIAS DE LA EDUCACIÓN Y FORMACIÓN DEL PROFESORADO</option>
+                            <option>INGENIERÍA Y TECNOLOGÍA</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Duracción</label>
+                    <input type="text" class="form-control" value="Duracción">
+                  </div>
+                  <div class="form-group">
+                      <label for="">País</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Colombia</option>
+                            <option>Eeuu</option>
+                            <option selected="selected">Alemania</option>
+                            <option>Inglaterra</option>
+                            <option>Francia</option>
+                            <option>Canada</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Institución educativa</label>
+                    <input type="text" class="form-control" value="--">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Descripción</label>
+                    <textarea class="form-control" rows="6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam nulla vel lacus laoreet, a imperdiet ligula varius. Donec eu neque sed metus pulvinar convallis a ut urna. Donec vel maximus ipsum. Vestibulum nec velit metus. Nunc molestie augue ac eleifend dignissim. Nam nisl mi, vestibulum at facilisis id, tincidunt et arcu. Sed ultrices ante tellus, eget interdum enim volutpat in. Curabitur ultricies urna nisi, sit amet imperdiet purus malesuada eget. Ut vel magna pharetra, sodales nulla quis, tempor turpis. Phasellus feugiat lorem leo, nec pulvinar est laoreet non.</p>
+
+                <p>Sed vulputate pharetra eleifend. Duis venenatis mauris eu facilisis elementum. Suspendisse vulputate blandit diam, in egestas tellus dictum sit amet. In lorem urna, suscipit ac maximus eu, convallis non nisi. Integer et tortor faucibus, gravida nulla in, blandit odio. Sed dictum libero eget magna mollis, nec tempor risus mollis. Donec pellentesque vestibulum bibendum. Phasellus fringilla arcu ac magna malesuada, eget suscipit ligula pulvinar.</p>
+
+                <p>Quisque at quam dolor. Praesent vehicula tincidunt dolor, ut facilisis lorem bibendum at. Duis cursus augue vitae leo interdum, id finibus sem convallis. Sed condimentum feugiat tortor nec luctus. In luctus nisi id lectus fermentum, ac faucibus magna iaculis. Fusce laoreet metus et urna malesuada, a ultrices eros maximus. Nunc euismod placerat justo nec commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean tempor faucibus diam, at aliquam quam euismod eget. Nam turpis justo, feugiat vitae tincidunt nec, interdum eget odio. Cras aliquam rutrum tincidunt. Sed convallis mattis rutrum. Praesent sed aliquet libero, quis sollicitudin ex. Nam lacus turpis, tristique eget neque et, finibus egestas quam. Duis sagittis eros quis dignissim accumsan.
+                    </textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Fecha apertura</label>
+                    <input type="date"
+Olvidé class="form-control" value="10/08/2017">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Fecha cierre</label>
+                    <input type="date"
+Olvidé class="form-control" value="10/11/2017">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">Cronograma</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Archivo pdf</p>
+                  </div>
+                  <button type="submit" class="btn btn-success">Guardar</button>
+                  <a onclick="history.back()" id="cancel" name="cancel" class="btn btn-default">Cancelar</a>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

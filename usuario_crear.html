@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Panel Administrador</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Crear Usuario - Colfuturo</h1>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="panel_admin.html">Panel Administrador</a></li>
+          <li><a href="entidad_usuarios.html">Usuarios Entidad</a></li>
+          <li class="active">Crear Usuario</li>
+        </ol>
+    </header>
+    <section>
+        <form action="entidad_usuarios.html?msg=Usuario creado correctamente" method="post">
+                  <div class="form-group">
+                    <label for="">Nombres</label>
+                    <input type="text" class="form-control" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Apellidos</label>
+                    <input type="text" class="form-control" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">Foto</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Archivo png jpg</p>
+                  </div>
+                  <div class="form-group">
+                      <label for="">Tipo identifación</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Cedula de ciudadania</option>
+                            <option>Cedula de extranjeria</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Identificación</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Télefono</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Dirección</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+
+                  <button type="submit" class="btn btn-success">Guardar</button>
+                  <a onclick="history.back()" id="cancel" name="cancel" class="btn btn-default">Cancelar</a>
+                </form>
+
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

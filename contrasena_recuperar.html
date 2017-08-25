@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Iniciar sesión</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Recuperar Contraseña</h1>
+       <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Recuperar Contraseña</li>
+        </ol>
+    </header>
+    <section>
+        
+        <div class="row">
+          <div class="col-md-9">
+                <form action="ingresar.html" method="post">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <button type="submit" class="btn btn-success">Recuperar</button>
+                  <a onclick="history.back()" id="cancel" name="cancel" class="btn btn-default">Cancelar</a>
+                </form>
+          </div>
+          <div class="col-md-3">
+              <div><a href="ingresar.html">Ingresar</a></div>
+              <div><a href="cuenta_crear.html">Crear una cuenta</a></div>
+          </div>
+        </div>  
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

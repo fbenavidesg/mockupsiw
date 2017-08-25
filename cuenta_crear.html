@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Becas::Iniciar sesión</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="js/external/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <header>
+       <div class="templatecustom" value="menu"></div>
+       <h1>Crear cuenta</h1>
+       <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Crear cuenta</li>
+        </ol>
+    </header>
+    <section>
+        
+        <div class="row">
+          <div class="col-md-9">
+                <form action="ingresar.html?msg=Su cuenta a sido creada, revise su correo para activar" method="post">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                  </div>
+                  <br />
+                  <div class="form-group">
+                      <label for="">Tipo identifación</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Cedula de ciudadania</option>
+                            <option>Cedula de extranjeria</option>
+                            <option>Tarjeta de identidad</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Identificación</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Nombres</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Apellidos</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Télefono</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Celular</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Fecha nacimiento</label>
+                    <input type="date" class="form-control" placeholder="dd/mm/aa">
+                  </div>
+                  <div class="form-group">
+                      <label for="">Pais de origen</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Colombia</option>
+                            <option>Eeuu</option>
+                            <option>Alemania</option>
+                            <option>Inglaterra</option>
+                            <option>Francia</option>
+                            <option>Canada</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="">Estado civil</label>
+                      <select class="form-control">
+                            <option></option>
+                            <option>Soltero</option>
+                            <option>Casado</option>
+                            <option>Divorsiado</option>
+                            <option>Viudo</option>
+                            <option>Union libre</option>
+                        </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Ciudad de residencia</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Dirección de residencia</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Dirección de oficina</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Télefono de oficina</label>
+                    <input type="text" class="form-control" id="" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">Fotografia</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Archivo jpg, png</p>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">Hoja de vida</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Archivo pdf</p>
+                  </div>
+
+                  <button type="submit" class="btn btn-success">Crear cuenta</button>
+                  <a onclick="history.back()" id="cancel" name="cancel" class="btn btn-default">Cancelar</a>
+                </form>
+          </div>
+          <div class="col-md-3">
+              <div><a class="btn btn-default" href="ingresar.html">Ingresar</a></div>
+              <div><a class="btn btn-default" href="contrasena_recuperar.html">Créditos
+Olvidé mi contraseña</a></div>
+          </div>
+        </div>  
+    </section>
+    <footer>
+        &nbsp;
+    </footer>
+    <script src="js/external/jquery.min.js"></script>
+    <script src="js/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
